@@ -22,6 +22,7 @@
         <security:logout logout-url="/logout" logout-success-url="/index.jsp" invalidate-session="true"/>
         <security:remember-me remember-me-cookie="remember"/>
 
+
     </security:http>
 
     <bean id="encoder" class="com.alpha.security.starter.MyPasswordEncoder"></bean>
